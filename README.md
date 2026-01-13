@@ -7,12 +7,12 @@ I built this dashboard for one simple reason: To make better decisions about my 
 
 ## How It Works (The Workflow)
 ### 1. Data Input (Excel)
-
 I use a simple Excel sheet as my database with columns for Date, Store, Amount, and Description.
 
-Best Practice: I load the data into Power BI as a formatted Table (not just the raw Sheet) to avoid importing empty blank cells.
+I load the data into Power BI as a formatted Table (not just the raw Sheet) to avoid importing empty blank cells.
 
-### 2. Data Transformation (Power Query) This is where the magic happens. I use Power BI to clean the messy data so I don't have to fix it manually in Excel every time.
+### 2. Data Transformation (Power Query) 
+I use Power BI to clean the messy data so I don't have to fix it manually in Excel every time.
 
 Normalization: I use "Replace Values" to fix inconsistencies (e.g., standardizing "B&B" and "BBW" into a single name).
 
@@ -23,7 +23,6 @@ The "Restaurant" Logic: To catch new restaurants without writing a new rule for 
 Order of Operations: I learned that Power BI processes steps from top to bottom. I specifically organized my "Applied Steps" to ensure that Renaming and Capitalization happen before the Categorization logic runs, ensuring no data gets missed.
 
 ### 3. Visualization (The Dashboard)
-
 Search Engine: A slicer set to "Search" mode allows me to instantly find specific transactions (e.g., typing "coffee" or "Uber").
 
 Monthly Analysis: A Date Slicer allows me to filter the view to a specific month (e.g., May) to see if I stayed on budget.
