@@ -1,6 +1,6 @@
 # Personal-Expense-Dashboard
 
-<img width="2529" height="1295" alt="my_dashboard_screenshot png" src="https://github.com/user-attachments/assets/7ca808f1-eb0f-47b0-a15b-8faff2544104" />
+<img width="2517" height="1294" alt="MyDashboard_screenshot png" src="https://github.com/user-attachments/assets/0f2e06f7-3950-4da0-aa1f-84cf919bb861" />
 
 ## The Goal
 I built this dashboard for one simple reason: To make better decisions about my money. I wanted to stop guessing where my budget was going and create a system that tracks my daily expenses, visualizes my spending habits, and helps me decide if I can afford that next purchase. This project takes the manual work out of budgeting by automating the math and categorization.
